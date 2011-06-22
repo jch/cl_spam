@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.9)
+    builder (3.0.0)
+    hoptoad_notifier (2.4.11)
+      activesupport
+      builder
+    mime-types (1.16)
+    nokogiri (1.4.6)
+    rest-client (1.6.3)
+      mime-types (>= 1.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hoptoad_notifier
+  nokogiri
+  rest-client
