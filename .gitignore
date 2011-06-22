@@ -5,3 +5,5 @@ tmp/
 *~
 *.orig
 *.rej
+listings/*.html
+config/hoptoad.rb
