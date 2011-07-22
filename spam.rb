@@ -49,5 +49,5 @@ begin
 rescue Exception => e
   require 'hoptoad_notifier'
   require './config/hoptoad'
-  HoptoadNotifier.notify(e)
+  HoptoadNotifier.notify(e) rescue nil
 end
